@@ -1,0 +1,80 @@
+{
+    "romance": {
+        "name": "romance",
+        "description": "some description",
+        "stories": [
+            {
+                "name": "i love you",
+                "author": "naruto uzumaki",
+                "description": "A woman in her fifties who is very forceful A young woman in her late teens who is very dishonest The story begins in a bar A pregnancy is announced It's a story about hatred Your character takes on the role of protector"
+            },
+            {
+                "name": "sophie and I",
+                "author": "sakura haruno",
+                "description": "After ten years, Finn Martins returns to Brazil to destroy his enemy, though he didn't count on facing the only woman he's ever loved - his enemy's daughter, Nina Peres. After ten years, Finn Martins is returning to Rio de Janeiro, Brazil as a different man. He's changed his name, his identity, and even his looks. Now Markos Petrakis, a Greek Ruthless Multi-Billionaire World shipping magnate, he's ruthless and feared. He can destroy anyone with just a snap of his fingers, and that's his plan: to destroy his sworn enemy. The man who ruined his life and tore apart his family. The only problem? Getting his revenge would also hurt the only woman he's ever loved - his enemy's daughter, Nina Peres."
+            },
+            {
+                "name": "FOREVER",
+                "author": "sasuke uchiha",
+                "description": "A man in his late twenties who can be quite jealous A young woman in her late teens who can be quite naive The story begins in a car park Someone is diagnosed with a mental illness It's a story about friendship Your character has to do some quick thinking to keep ahead"
+            }
+        ]
+    },
+        "fantasy": { 
+            "name": "fantasy",
+            "description": "some description",
+            "stories": [
+            {
+                "name": "somaly snd the forest god",
+                "author": "shikamaru nara",
+                "description": "Born with glowing green eyes. Destined for rotten luck. Peasant girl Meya Hild is offered the chance of a lifetime to become a Lady---at swordpoint. By mercenaries. Engaged to a dying nobleman. Poisoned with one month to live. Tasked to loot a castle. In a kingdom running out of resources. Little did Meya know that this shenanigan would lead her across land and over seas, from a mountain made of sapphire to an island shrouded in silver spiral clouds, with masquerades, heists, kidnappings, assassinations, shipwrecks, alchemy, reading lessons, romance, and an unexpected 'bump' along the way."
+            },
+            {
+                "name": "wake up to reality",
+                "author": "naruto uzumaki",
+                "description": "On our normal world, we think of monsters as a myth, something that is imaginary, or simply is in our imagination, but what if they did exist, or rather, they just weren't living with us. well, that is where our lead will find out, and that a war terrors the other side."
+            },
+            {
+                "name": "they're watching us",
+                "author": "naruto uzumaki",
+                "description": "Annifer can put it off no longer. The time has come for her to journey north to the snow-covered land of Crosstain and marry the loathsome Larnick. Meanwhile, deep in the heart of the Great Forest, all is not well in the Wise Women's Village. A powerful magical artefact has been stolen and a dangerous prisoner escaped. Dark clouds are gathering over Sacred Mountain. Could it be that their most deadly enemy is back? Book Three of the Annifer Trilogy but you don't have to have read the first two books to understand it."
+            }
+        ]
+    },
+        "horror": { 
+            "name": "horror",
+            "description": "some description",
+            "stories": [
+            {
+                "name": "somaly snd the forest god",
+                "description": "Nikki Burke has been always loved by secret admirers... Nothing much really just guys who are shy to tell face to face. When Nikki’s boyfriend was found gruesomely murdered she thought she couldn’t live. That is when she began dating after a year, her secret admirer came back. Now she will realize that her worst nightmare are about to began once more…. Even if it means killing someone who gets in his way... "
+            },
+            {
+                "name": "wake up to reality",
+                "description": "After escaping a stalled elevator into a zombie apocalypse, Emily must learn how to trust people again or risk losing everything in this terrifying world. For Emily, every day of the last two years have been a blur. She keeps her head down, takes her college courses online, and only goes out to work at her mandatory internship. But all that changes on the day the office elevator breaks down, leaving her trapped when the screams begin. And when the doors finally open, revealing a dystopian world ruined by bloody teeth and disease, Emily is launched into a terrifying run for her life, caught between the strangers she's not sure she can trust and the man-eating monsters that hunger for her flesh. Now she must learn not only how to survive in this new and dangerous world, but also how to overcome her own inner demons before they cost her something more precious than her life."
+            },
+            {
+                "name": "they're watching us",
+                "description": "Living in a small unknown country, Violet dreamed of seeing the world one day. But her dream was crushed when her best friend stabbed her in the back, literally. On the verge of death Violet sees an angel come to her. The angel offers her a deal. 'Be mine and you shall be free.' Little did she know, she had struck a deal with the Devil."
+            }
+        ]
+    },
+    "Songs": { 
+        "name": "Poetry",
+        "description": "some description",
+        "stories": [
+        {
+            "name": "the day i thought we are together",
+            "description": "For most of his life E.J tries to hide behind drawn curtains, to afraid that the world will find out about his abnormal situation. The one where he needs to please his stepfather sexually every night behind the same drawn curtains. When E.J meets Christopher he wishes that he could be whole for him and be in his arms as a pure boy again, be he know that is impossible. Add in E.J's stepfather becoming jealous of Christopher and E.J feeling he will never be good enough to be in a relationship and E.J needs to choose between killing his stepfather to be with Christopher or committing suicide to get out of this situation once and for all."
+        },
+        {
+            "name": "as i grew older",
+            "description": "Poems. A way to express feelings. I am gonna write my life down like a book full of emotions.My life is like a paper the more damage , the more useless I am.I am gonna find my own way.My own way to find myself and to think."
+        },
+        {
+            "name": "when the party is over",
+            "description": "This is where I will be posting poems that I've written about the Pandemic and poems that I've written during the pandemic. They're not professional by any means, they're just thoughts and feelings that I wish to share. Hope you guys enjoy!"
+        }
+    ]
+}
+}
