@@ -1,0 +1,54 @@
+.main-para{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.second-para{
+    background-color: #212529;
+    padding: 100px 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    top: 100vh;
+}
+
+.third-para{
+    background-color: $background-color;
+    padding: 100px 0;
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    top: 100vh;
+    .sub-title{
+        color: #212529
+    }
+    .paragraph{
+        color: $sub-topics-color;
+    }
+    .open-book{
+        margin-left: 30px
+    }
+}
+
+.forth-para{
+    background-color: #212529;
+    padding: 100px 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    top: 100vh;
+}
+
+.storyDetails{
+    position: relative;
+    top: 90vh;
+    background-color: $main-topics-color;
+    padding: 50px 0;
+}
+
+.centered-div{
+    text-align: center;
+}

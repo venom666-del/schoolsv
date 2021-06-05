@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('partials/head') %> 
+</head>
+<body>
+    <div class="centered-div">
+        <h1>register</h1>
+    </div>
+    <form action="http://localhost:6060/home/success" method="post">
+        <label for="firstname">Enter first name:</label>
+        <input type="text" name="firstname" autocomplete="off">
+        <br>
+        <br>
+        <label for="lastname">Enter last name:</label>
+        <input type="text" name="lastname" autocomplete="off">
+        <br>
+        <br>
+        <label for="email">Enter your email</label>
+        <input type="email" name="email" autocomplete="off">
+        <br>
+        <br>
+        <label for="password">Enter your password</label>
+        <input type="password" name="password" autocomplete="off">
+        <br>
+        <br>
+        <label for="Vpassword">verify your password</label>
+        <input type="password" name="Vpassword" autocomplete="off">
+        <br>
+        <br>
+        <h4>Pick Your Gender</h4>
+        <label for="male">male</label>
+        <input type="radio" name="male">
+        <label for="female">female</label>
+        <input type="radio" name="female">
+        <label for="other">other</label>
+        <input type="radio" name="other">
+        <br>
+        <br>
+        <h4>your favorite category:</h4>
+        <select name="category">      
+            <option value="romance">Romance</option>
+            <option value="horror">Horror</option>
+            <option value="poetry">Poetry</option>
+            <option value="fantasy">Fantasy</option>
+        </select>
+        <br>
+        <br>
+        <button>Submit</button>
+    </form>
+    <%- include('partials/background-shapes/rectangle1') %> 
+    <%- include('partials/background-shapes/rectangle2') %> 
+</body>
+</html>

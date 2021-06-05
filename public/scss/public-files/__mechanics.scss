@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: $background-color;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.sub-title, .paragraph, .story-description, .btn:not(.btn-signUp), .story-name{
+    margin-left: 30px;
+}
+
+.btn{
+    padding: 0 7px;
+    border: 1px solid;
+    border-radius: 3px;
+    font-size: $small-text;
+}
+
+.title{
+    font-size: $large-topics-size;
+    font-family: $topics-font;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sub-title{
+    font-size: $small-text;
+    font-family: $sub-topics-font;
+    color: $background-color;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.paragraph{
+    font-size: $details;
+    font-family: $body-font;
+    margin-right: 30px;
+    color: $sub-topics-color;
+    width: 80%;
+}
+
+.story-name{
+    font-size: $small-text;
+    font-family: $sub-topics-font;
+    color: rgb(119, 119, 119);
+    font-weight: 900;
+    text-decoration: none;
+    transition: 0.3s ease;
+    &:hover{
+        color: rgb(80, 80, 80);
+    }
+}
+
+.story-description{
+    font-size: $small-text;
+    line-height: 2em;
+    font-family: $medium-topics-size;
+    margin-right: 30px;
+    color: $sub-topics-color;
+    
+    width: 60%;
+}

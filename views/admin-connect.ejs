@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('partials/head') %> 
+</head>
+<body>
+    <div class="centered-div">
+        <h1>admin connection</h1>
+    </div>
+    <form action="/admin-sec" method="POST">
+        <br>
+        <label for="text">First Name</label>
+        <input type="text" autocomplete="off" name="name">
+        <br>
+        <br>
+        <label for="email">Email</label>
+        <input type="email" autocomplete="off" name="username">
+        <br>
+        <br>
+        <label for="password">Password</label>
+        <input type="password" name="password">
+        <br>
+        <br>
+        <button type="submit" autocomplete="off" class="btn">Login</button>
+    </form>
+    <%- include('partials/background-shapes/rectangle1') %> 
+    <%- include('partials/background-shapes/rectangle2') %> 
+</body>
+</html>

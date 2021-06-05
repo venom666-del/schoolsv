@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head>
+    <%- include('partials/head') %> 
+</head>
+<body>
+    <%- include('partials/navbar') %> 
+    <div class="main-para">
+        <div class="main">
+            <h1 class="title">StoryVibe</h1>
+        </div>
+        <div class="home-info-section1">
+            <div class="buttons">
+                <a href="/log-out"><input type="button" class="btn btn-login" value="Logout"></a>
+                <%- include('partials/buttons/sign-up') %> 
+            </div>
+        </div>
+    </div>
+    <h3 >welcome: <%= name %></h3>
+    <p id="clock"></p>
+    <div id="second-para" class="second-para">
+        <div>
+            <h3 id="first-sec" class="sub-title">Why StoryVibe?</h3>
+            <%- include('partials/paragraphs/home-para1') %> 
+        </div>
+        <img class="open-book" src="/images/book-reading.jpg.jpg">
+    </div>
+    <div class="third-para">
+        <div>
+            <h3 id="first-sec" class="sub-title">Features</h3>
+            <%- include('partials/paragraphs/home-para2') %> 
+        </div>
+        <img class="open-book" src="/images/inspiration.jpg.jpg">
+    </div>
+    <div class="forth-para">
+        <div>
+            <h3 id="first-sec" class="sub-title">About</h3>
+            <%- include('partials/paragraphs/home-para3') %> 
+        </div>
+        <img class="open-book third-img" src="/images/replaced.jpg.jpg">
+    </div>
+    <%- include('partials/background-shapes/rectangle1') %> 
+    <%- include('partials/background-shapes/rectangle2') %> 
+</body>
+</html>

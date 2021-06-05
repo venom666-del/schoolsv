@@ -1,0 +1,21 @@
+.buttons{
+    font-family: $sub-topics-font;
+    font-size: $details;
+    position: relative;
+    top: 80px;
+    right: 20px;
+    width: 200%;
+    .btn-login{
+        transition: 0.3s ease;
+
+        &.btn-login:hover, &.btn-login:focus{
+            letter-spacing: 0.2em;
+        }
+    }
+    .btn-signUp{
+        transition: 0.3s ease;
+        &.btn-signUp:hover, &.btn-signUp:focus{
+            letter-spacing: 0.2em;
+        }
+    }
+}

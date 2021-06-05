@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <%- include('partials/head') %> 
+    </head>
+    <body>
+        <%- include('partials/navbar') %> 
+        <h1 class="title">categories</h1>
+        <h3 >welcome: <%= name %></h3>
+        <div id="second-para" class="second-para">
+            <div>
+                <h3 ><a class="story-name" href="/home/categories/romance">Romance</a></h3>
+                <%- include('partials/paragraphs/romance-para') %> 
+            </div>
+        </div>
+        <div id="third-para" class="third-para">
+            <div>
+                <h3 ><a class="story-name" href="/home/categories/horror">Horror</a></h3>
+                <%- include('partials/paragraphs/horror-para') %> 
+            </div>
+        </div>
+        <div id="second-para" class="second-para">
+            <div>
+                <h3 ><a class="story-name" href="/home/categories/fantasy">Fantasy</a></h3>
+                <%- include('partials/paragraphs/fantasy-para') %> 
+            </div>
+        </div>
+        <div id="third-para" class="third-para">
+            <div>
+                <h3 ><a class="story-name" href="/home/categories/Songs">Poetry</a></h3>
+                <%- include('partials/paragraphs/poetry-para') %> 
+            </div>
+        </div>
+        <%- include('partials/background-shapes/rectangle1') %> 
+        <%- include('partials/background-shapes/rectangle2') %> 
+    </body>
+</html>

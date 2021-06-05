@@ -1,0 +1,19 @@
+<%- include('partials/head') %> 
+<title><%= name %></title>
+<body>
+    <%- include('partials/navbar') %> 
+    <h3 >welcome: <%= username %></h3>
+    <h1 class="title"><%= name.toUpperCase() %></h1>
+    <h2 class="sub-title"><%= description %></h2>
+    <div class="storyDetails">
+        <% for(story of stories) { %> 
+            <div>
+                <a class="story-name" href="#"><%= story.name %></a>
+                <p class="story-description"><%= story.description %></p>
+            </div>
+        <% } %> 
+    </div>
+        <%- include('partials/background-shapes/rectangle1') %> 
+        <%- include('partials/background-shapes/rectangle2') %>
+</body>
+</html>

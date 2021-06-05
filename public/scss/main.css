@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@10&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Unna&display=swap");
+.main-para {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.second-para {
+  background-color: #212529;
+  padding: 100px 0;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  top: 100vh;
+}
+
+.third-para {
+  background-color: #d8d5cb;
+  padding: 100px 0;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  top: 100vh;
+}
+
+.third-para .sub-title {
+  color: #212529;
+}
+
+.third-para .paragraph {
+  color: #616161;
+}
+
+.third-para .open-book {
+  margin-left: 30px;
+}
+
+.forth-para {
+  background-color: #212529;
+  padding: 100px 0;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  top: 100vh;
+}
+
+.storyDetails {
+  position: relative;
+  top: 90vh;
+  background-color: #212529;
+  padding: 50px 0;
+}
+
+.centered-div {
+  text-align: center;
+}
+
+.buttons {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  position: relative;
+  top: 80px;
+  right: 20px;
+  width: 200%;
+}
+
+.buttons .btn-login {
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.buttons .btn-login.btn-login:hover, .buttons .btn-login.btn-login:focus {
+  letter-spacing: 0.2em;
+}
+
+.buttons .btn-signUp {
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.buttons .btn-signUp.btn-signUp:hover, .buttons .btn-signUp.btn-signUp:focus {
+  letter-spacing: 0.2em;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #d8d5cb;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.sub-title, .paragraph, .story-description, .btn:not(.btn-signUp), .story-name {
+  margin-left: 30px;
+}
+
+.btn {
+  padding: 0 7px;
+  border: 1px solid;
+  border-radius: 3px;
+  font-size: 18px;
+}
+
+.title {
+  font-size: 6.5em;
+  font-family: "Unna", cursive;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.sub-title {
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  color: #d8d5cb;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.paragraph {
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  margin-right: 30px;
+  color: #616161;
+  width: 80%;
+}
+
+.story-name {
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  color: #777777;
+  font-weight: 900;
+  text-decoration: none;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.story-name:hover {
+  color: #505050;
+}
+
+.story-description {
+  font-size: 18px;
+  line-height: 2em;
+  font-family: 28px;
+  margin-right: 30px;
+  color: #616161;
+  width: 60%;
+}
+
+.rect1 {
+  width: 700px;
+  height: 1800px;
+  background-color: #eabf9f;
+  -webkit-transform: rotate(30deg);
+          transform: rotate(30deg);
+  z-index: -1;
+  position: absolute;
+  top: 0;
+}
+
+.rect2 {
+  width: 1700px;
+  height: 2100px;
+  background-color: #414141;
+  -webkit-transform: rotate(30deg);
+          transform: rotate(30deg);
+  z-index: -1;
+  position: absolute;
+  top: -150px;
+  left: 250px;
+}
+
+.open-book {
+  width: 350px;
+  height: 100%;
+  margin-right: 30px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  z-index: 101;
+  opacity: 0.8;
+}
+
+.third-img {
+  width: 350px;
+  margin-right: 100px;
+}
+/*# sourceMappingURL=main.css.map */

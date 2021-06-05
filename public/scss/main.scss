@@ -1,0 +1,15 @@
+// variables
+@import 'variables/__fonts.scss';
+@import 'variables/__sizes.scss';
+@import 'variables/__colors.scss';
+// sections
+    // home section
+@import 'sections/home-section/__home-specifics';
+@import 'sections/home-section/home-buttons/__home-buttons';
+// public files
+@import 'public-files/__mechanics.scss';
+// background
+@import 'background-shapes/__rectangles.scss';
+@import 'background-shapes/BS-media-query/_BS-media-query';
+// images
+@import 'images/__book-icon-design.scss';
